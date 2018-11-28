@@ -1,0 +1,294 @@
+@media screen and (max-width: 480px){
+    .main-area{
+        padding-right: 0;
+    }
+}
+
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    /* outline: 1px solid; */
+    /* position: absolute; */
+    z-index: 1;
+    width: 100vw;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+.nav ul{
+    /* outline: 1px solid red; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.nav ul li{
+    /* outline: 1px solid #000; */
+    width: 130px;
+    display: inline-block;
+}
+li:not(:last-child){
+    border-right: 1px solid #333333;
+}
+
+.nav ul li a{
+    background-color: #fff;
+    color: #dbb7e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+   
+}
+.nav ul li a:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #611d6d;
+}
+
+.one{
+    padding-top: 40px;
+    margin: auto 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+        align-items: center;
+    -webkit-justify-content: center;
+        justify-content: center;
+}
+.card {
+    background-color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    margin: 1rem;
+    position: relative;
+  }
+
+  .card-1{
+    background-image: url(./images/work/work_crayon.jpg);
+    /* background-size: cover; */
+    /* padding: -30px; */
+    background-position: 50% 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .card-2 {
+    /* padding-top: -5px; */
+    background-image: url(./images/work/work_oilpainting.jpg);
+    background-size: cover;
+    background-position: 100% 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .card-2:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .card-3 {
+    background-image: url(./images/work/work_watercolor.JPG);
+    background-size: cover;
+    background-position: 100% 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .card-3:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .two{
+    padding-top: 10px;
+    margin: auto 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+        align-items: center;
+    -webkit-justify-content: center;
+        justify-content: center;
+  }
+  .card-4 {
+    background-image: url(./images/work/work_sketch.JPG);
+    background-size: cover;
+    background-position: 50% 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .card-4:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .card-5 {
+    background-image: url(./images/work/work_others.JPG);
+    background-size: cover;
+    background-position: 50% 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .card-5:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .card-6 {
+    background-image: url(./images/work/work_graphicdesign.PNG);
+    background-size: cover;
+    
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .card-6:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+
+.crayon h2{
+    /* width: 960px;
+    height: 35px; */
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #611d6d; */
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+}
+.crayon img{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+.oilpainting h2{
+    /* width: 960px;
+    height: 35px; */
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #611d6d; */
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+}
+.oilpainting img{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+.watercolor h2{
+    /* width: 960px;
+    height: 35px; */
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #611d6d; */
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+}
+.watercolor img{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+.sketch h2{
+    /* width: 960px;
+    height: 35px; */
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #611d6d; */
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+}
+.sketch img{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+.others h2{
+    /* width: 960px;
+    height: 35px; */
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #611d6d; */
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+}
+.others img{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+.graphicdesign h2{
+    /* width: 960px;
+    height: 35px; */
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #611d6d; */
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+}
+.graphicdesign img{
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+
+.footer{
+    width: 1280px;
+    margin: auto;  
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+    float: bottom;
+    padding-top: 30px;
+}
+.copyright{
+    text-align: center;
+    color: #dbb7e2;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.icon_facebook{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    padding-right: 5px;
+}
+
+.icon_instagram{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    /* float: right; */
+    /* margin-right: 10px; */
+}
+.icon_twitter{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    padding-left: 5px;
+    /* float: right; */
+    /* margin-right: 10px; */
+}

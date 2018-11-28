@@ -1,0 +1,136 @@
+@media screen and (max-device-width: 768px){}
+
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1280px) {
+    .menu-button,
+    .menu-button-checkbox {
+      display: none; 
+    }
+  }
+
+
+.nav{
+    /* outline: 1px solid; */
+    /* position: absolute; */
+    z-index: 1;
+    width: 100vw;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+.nav ul{
+    /* outline: 1px solid red; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.nav ul li{
+    /* outline: 1px solid #000; */
+    width: 130px;
+    display: inline-block;
+}
+li:not(:last-child){
+    border-right: 1px solid #333333;
+}
+.nav ul li a{
+    background-color: #fff;
+    color: #dbb7e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+.nav ul li a:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #611d6d;
+}
+img{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* display: block;
+    margin: auto; */
+    /* padding-top: 100px; */
+    margin: 100px auto auto auto;
+    padding-bottom: 15px;
+}
+/* .logo{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 5px;
+
+} */
+.footer{
+    width: 1280px;
+    margin: auto;  
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+    float: bottom;
+}
+.copyright{
+    text-align: center;
+    color: #dbb7e2;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.icon_facebook{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    padding-right: 5px;
+}
+
+.icon_instagram{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    /* float: right; */
+    /* margin-right: 10px; */
+}
+.icon_twitter{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    padding-left: 5px;
+    /* float: right; */
+    /* margin-right: 10px; */
+}
+/* .footer FB{
+    justify-content: flex-start;
+    display: inline-block;
+    position: absolute;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+} */
+/* .footer p{
+    
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#dbb7e2;
+} */
+

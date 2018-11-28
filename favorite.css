@@ -1,0 +1,371 @@
+@media screen and (max-device-width: 768px){}
+
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    /* outline: 1px solid; */
+    /* position: absolute; */
+    z-index: 1;
+    width: 100vw;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+.nav ul{
+    /* outline: 1px solid red; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.nav ul li{
+    /* outline: 1px solid #000; */
+    width: 130px;
+    display: inline-block;
+}
+li:not(:last-child){
+    border-right: 1px solid #333333;
+}
+
+.nav ul li a{
+    background-color: #fff;
+    color: #dbb7e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+   
+}
+.nav ul li a:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #611d6d;
+}
+
+h2{
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    /* background-color: #611d6d; */
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+    letter-spacing: 5px;
+}
+
+.area{
+    width: 75vw;
+    height: 75vh;
+    font-size: 0;
+    margin: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+        align-items: center;
+    -webkit-justify-content: center;
+        justify-content: center;
+}
+.block{
+    /*   outline: 1px solid red; */
+    width: calc(100% / 5);
+    height: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+.b1{
+    background-image: url(./images/fav_cookie.JPG);
+    background-size: cover;
+    background-position: 50% 100%;
+}
+.b2{
+    background-image: url(./images/fav_aporonn.jpg);
+    background-size: cover;
+    background-position: 50% 100%;
+}
+.b3{
+    background-image: url(./images/fav_takeuchi.jpg);
+    background-size: cover;
+    background-position: 65% 100%;
+}
+.b4{
+    background-image: url(./images/fav_iKON.jpg);
+    background-size: cover;
+    background-position: 92% 100%;
+}
+.b5{
+    background-image: url(./images/fav_JP.jpg);
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+.baking{
+    width: 65vw;
+    height: 45vh;
+    font-size: 0;
+    padding: 50px;
+    margin: auto;
+}
+.part{
+    height: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+.p1_1{
+    width: 60%;
+    background-image: url(./images/fav_yellow.jpg);
+    background-size: cover;
+}
+.word{
+    position: absolute;
+    padding-left: 7px;
+    margin: auto;
+    text-align: left;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+    line-height: 200%;
+    letter-spacing: 5px;
+}
+.p1_2{
+    width: 40%;
+    background-image: url(./images/fav_cake.JPG);
+    background-size: cover;
+    background-position: 50% 100%;
+}
+  
+.movie{
+    width: 65vw;
+    height: 45vh;
+    font-size: 0;
+    padding: 50px;
+    margin: auto;
+}
+.part{
+    height: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+.p2_1{
+    width: 40%;
+    background-image: url(./images/fav_apolo.jpg);
+    background-size: cover;
+    /* background-position: 55% 100%; */
+}
+.p2_2{
+    width: 60%;
+    background-image: url(./images/fav_pink.jpg);
+    background-size: cover;
+}
+.word{
+    position: absolute;
+    padding-left: 7px;
+    margin: auto;
+    text-align: left;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+    line-height: 200%;
+    letter-spacing: 5px;
+}
+
+.drama{
+    width: 65vw;
+    height: 45vh;
+    font-size: 0;
+    padding: 50px;
+    margin: auto;
+}
+.part{
+    height: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+.p3_1{
+    width: 60%;
+    background-image: url(./images/fav_blue.jpg);
+    background-size: cover;
+    background-position: 100% 50%;
+}
+.word{
+    position: absolute;
+    padding-left: 7px;
+    margin: auto;
+    text-align: left;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+    line-height: 200%;
+    letter-spacing: 5px;
+}
+.p3_2{
+    width: 40%;
+    background-image: url(./images/fav_rikuoh.jpg);
+    background-size: cover;
+    background-position: 100% 15%;
+}
+
+.music{
+    width: 65vw;
+    height: 45vh;
+    font-size: 0;
+    padding: 50px;
+    margin: auto;
+}
+.part{
+    height: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+.p4_1{
+    width: 40%;
+    background-image: url(./images/fav_music.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.p4_2{
+    width: 60%;
+    background-image: url(./images/fav_music_bgi.jpg);
+    background-size: cover;
+    background-position: 50% 100%;
+}
+.word{
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 7px;
+    margin: auto;
+    text-align: left;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+    line-height: 200%;
+    letter-spacing: 5px;
+}
+
+.japan{
+    width: 65vw;
+    height: 45vh;
+    font-size: 0;
+    padding: 50px;
+    margin: auto;
+}
+.part{
+    height: 100%;
+    display: inline-block;
+    font-size: 16px;
+}
+.p5_1{
+    width: 60%;
+    background-image: url(./images/fav_flower.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.word{
+    position: absolute;
+    padding-left: 7px;
+    margin: auto;
+    text-align: left;
+    font-family: Microsoft JhengHei;
+    color: #611d6d;
+    line-height: 200%;
+    letter-spacing: 5px;
+}
+.p5_2{
+    width: 40%;
+    background-image: url(./images/fav_japan.JPG);
+    background-size: cover;
+    background-position: 60% 100%;
+}
+
+.footer{
+    background-color:#611d6d;
+    width: 1280px;
+    margin: auto;  
+    height: 40px;
+    margin-top: 10px;
+    padding-bottom: 255px;
+    position: absolute;
+}
+.copyright{
+    text-align: center;
+    color: #dbb7e2;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.icon_facebook{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    padding-right: 5px;
+}
+.icon_instagram{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    /* float: right; */
+    /* margin-right: 10px; */
+}
+.icon_twitter{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    padding-left: 5px;
+    /* float: right; */
+    /* margin-right: 10px; */
+}
+.footer{
+    width: 1280px;
+    margin: auto;  
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+    float: bottom;
+}
+.copyright{
+    text-align: center;
+    color: #dbb7e2;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.icon_facebook{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    padding-right: 5px;
+}
+
+.icon_instagram{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    /* float: right; */
+    /* margin-right: 10px; */
+}
+.icon_twitter{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    padding-left: 5px;
+    /* float: right; */
+    /* margin-right: 10px; */
+}
